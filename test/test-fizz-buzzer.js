@@ -23,7 +23,7 @@ describe('fizzBuzzer', () => {
         });
     });
     it('should return an error if input is not a number', () => {
-        const notANumber = [true, false, 'uncorn', function() {}, [1, 2, 3]];
+        const notANumber = [true, false, 'unicorn', function() {}, [1, 2, 3]];
         notANumber.forEach((input) => {
             expect(() => {
                 fizzBuzzer(input);
